@@ -13,17 +13,19 @@ extension=xhprof.so
 xhprof.output_dir=/Users/<username>/Sites/xhprof/runs
 </pre>
 
-- Restart your MAMP servers.
-
 - Download xhprof sources from http://pecl.php.net/package/xhprof to ~/Sites, eg:
 
 <pre>
 $ cd ~/Sites
-$ curl -O
-$ tar -xzf xhprof-0.9.2.tgz
+$ curl http://pecl.php.net/get/xhprof > xhprof.tgz
+$ tar -xzf xhprof.tgz
 </pre>
 
 - Create a new vhost in MAMP pointing to ~/Sites/xhprof. My domain is http://xhprof.local
+
+- Restart your MAMP servers.
+
+
 
 Run some profiles, then check http://xhprof.local/ for the output.
 
