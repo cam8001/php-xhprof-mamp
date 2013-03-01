@@ -8,16 +8,20 @@ Instructions:
 - Copy xhprof.so to /Applications/MAMP/bin/php/php5.3.14/lib/php/extensions/no-debug-non-zts-20090626/
 - Add the following lines to your php.ini (Open MAMP click on File → Edit Template → PHP → PHP 5.3.14 php.ini)
 
+<pre>
 extension=xhprof.so
 xhprof.output_dir=/Users/<username>/Sites/xhprof/runs
+</pre>
 
 - Restart your MAMP servers.
 
 - Download xhprof sources from http://pecl.php.net/package/xhprof to ~/Sites, eg:
 
+<pre>
 $ cd ~/Sites
 $ curl -O
 $ tar -xzf xhprof-0.9.2.tgz
+</pre>
 
 - Create a new vhost in MAMP pointing to ~/Sites/xhprof. My domain is http://xhprof.local
 
