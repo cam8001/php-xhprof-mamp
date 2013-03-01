@@ -10,7 +10,7 @@ Instructions:
 
 <pre>
 extension=xhprof.so
-xhprof.output_dir=/Users/<username>/Sites/xhprof/runs
+xhprof.output_dir=/Users/your_username/Sites/xhprof/runs
 </pre>
 
 - Download xhprof sources from http://pecl.php.net/package/xhprof to ~/Sites, eg:
