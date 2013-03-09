@@ -5,8 +5,8 @@ Compiled xhprof modules for use with MAMP.
 
 Instructions:
 
-- Copy xhprof.so to /Applications/MAMP/bin/php/php5.3.14/lib/php/extensions/no-debug-non-zts-20090626/
-- Add the following lines to your php.ini (Open MAMP click on File → Edit Template → PHP → PHP 5.3.14 php.ini)
+- Copy xhprof.so to /Applications/MAMP/bin/php/php5.x.x/lib/php/extensions/no-debug-non-zts-200xxxxx/ (replacing x with your PHP version and date)
+- Add the following lines to your php.ini (Open MAMP click on File → Edit Template → PHP → PHP 5.x.x php.ini)
 
 <pre>
 extension=xhprof.so
@@ -25,8 +25,6 @@ $ tar -xzf xhprof.tgz
 
 - Restart your MAMP servers.
 
-
-
-Run some profiles, then check http://xhprof.local/ for the output.
+- Follow the instructions at http://xhprof.local/xhprof_html/docs/ or, if you're using Drupal, install http://drupal.org/project/XHProf. 
 
 Have fun :)
