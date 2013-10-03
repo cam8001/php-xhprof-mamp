@@ -21,7 +21,13 @@ $ curl http://pecl.php.net/get/xhprof > xhprof.tgz
 $ tar -xzf xhprof.tgz
 </pre>
 
-- Create a new vhost in MAMP pointing to ~/Sites/xhprof. My domain is http://xhprof.local
+- At this point, you will have an xhprof directory with a version number on it. As of this writing, it's 0.9.4, but it may be different for you. Rename this directory to just `xhprof`:
+
+<pre>
+mv xhprof-0.9.4 xhprof
+</pre>
+
+- Create a new vhost in MAMP pointing to ~/Sites/xhprof/xhprof_html. My domain is http://xhprof.local
 
 - Restart your MAMP servers.
 
